@@ -372,7 +372,7 @@ Github
 </Link>
 
 
-<Link sx={connectLink} href="www.linkedin.com/in/aubrey-jones" target="_blank">
+<Link sx={connectLink} href="https://www.linkedin.com/in/aubrey-jones" target="_blank">
 <LinkedInIcon />
 LinkedIn
 </Link>
