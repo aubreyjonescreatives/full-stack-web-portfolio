@@ -6,8 +6,7 @@ import NetlifyIdentityContext from 'react-netlify-identity-gotrue';
 import NavBar from './Components/NavBar';
 import LandingPage from './Pages/Landing';  
 //import Footer from './Components/Footer/Footer'; 
-
-
+import './App.css';
 //const LatestMeals = React.lazy(() => import('./Components/LatestMeals/LatestMeals'));
 //const MealDetails = React.lazy(() => import('./Components/MealDetails/MealDetails'));
 

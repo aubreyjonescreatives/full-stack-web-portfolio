@@ -1,5 +1,5 @@
 import * as React from 'react'; 
-import { useHistory } from 'react-router-dom';
+//import { useHistory } from 'react-router-dom';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -10,14 +10,16 @@ import Drawer from '@mui/material/Drawer';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem'; 
 import ListItemIcon from '@mui/material/ListItemIcon'; 
-import { useIdentityContext } from 'react-netlify-identity-gotrue'
-import LogoutIcon from '@mui/icons-material/Logout';
-import Avatar from '@mui/material/Avatar';
+//import { useIdentityContext } from 'react-netlify-identity-gotrue'
+//import LogoutIcon from '@mui/icons-material/Logout';
+//import Avatar from '@mui/material/Avatar';
 import Link from '@mui/material/Link';
 import CodeIcon from '@mui/icons-material/Code';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import ArticleIcon from '@mui/icons-material/Article';
 import InfoIcon from '@mui/icons-material/Info';
+import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
+
 
 const linkStyling = {
   fontSize: '20px', 
@@ -36,7 +38,7 @@ const linkStyling = {
 const NavBar = () => {
 
 
- const identity = useIdentityContext()
+// const identity = useIdentityContext()
 
   // const history = useHistory()
   
@@ -65,21 +67,29 @@ const drawerItemList = () => (
         <ListItemIcon sx={{color: "white"}}>
           <CodeIcon/>
         </ListItemIcon>
-        <Link href="/" sx={linkStyling}>PROJECTS</Link>
+        <Link href="#projects" sx={linkStyling}>PROJECTS</Link>
       </ListItem>
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
           <ArticleIcon/>
         </ListItemIcon>
-        <Link href="/" sx={linkStyling}>ARTICLES</Link>
+        <Link href="#articles" sx={linkStyling}>ARTICLES</Link>
       </ListItem>
 
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
           <InfoIcon/>
         </ListItemIcon>
-        <Link href="/" sx={linkStyling}>ABOUT</Link>
+        <Link href="#about" sx={linkStyling}>ABOUT</Link>
       </ListItem>
+
+      <ListItem button>
+        <ListItemIcon sx={{color: "white"}}>
+          <ConnectWithoutContactIcon/>
+        </ListItemIcon>
+        <Link href="#connect" sx={linkStyling}>CONNECT</Link>
+      </ListItem>
+
 
     
     </List>
@@ -91,7 +101,7 @@ const drawerItemList = () => (
   <nav id="navWrapper" >
    
   <Box sx={{ flexGrow: 1}}>
-      <AppBar position="static" sx={{ backgroundColor:"#30638E", width: "100%", boxShadow: 0  }} >
+      <AppBar position="fixed" sx={{ backgroundColor:"#30638E", width: "100%", boxShadow: 0  }} >
         <Toolbar >
           <IconButton
             size="large"
@@ -104,7 +114,7 @@ const drawerItemList = () => (
             <MenuIcon />
           </IconButton>
           <Typography sx={{ flexGrow: 3, width: '300px'}}>
-          <Link href='/' sx={linkStyling}>AUBREY JONES</Link>
+          <Link href='/' sx={linkStyling}>AUBREY JONES | A Frontend Web Developer</Link>
           </Typography>
           
         </Toolbar>
