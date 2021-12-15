@@ -306,12 +306,12 @@ return (
     web development. Feel free to follow my articles and contact me for any questions, suggestions, and/or requests for a blog article.  
 </Typography>
 
-<Link sx={articleLink}>
+<Link sx={articleLink} href="https://medium.com/@aubreyjonescreatives">
        UX/UI | Frontend Web Development Blog
        </Link>
 
 
-       <Link sx={articleLink}>
+       <Link sx={articleLink} href="https://aubreyjonescreativesblog.netlify.app/">
       Frontend Web Development Blog
       </Link>
 
@@ -355,13 +355,13 @@ with my family. I am a pet lover and occasional pet sitter. I absolutely love ar
 
 
 <Box sx={connectLinksBox}>
-<Link sx={connectLink}>
+<Link sx={connectLink} href="https://github.com/aubreyjonescreatives">
 <GitHubIcon />
 Github
 </Link>
 
 
-<Link sx={connectLink}>
+<Link sx={connectLink} href="www.linkedin.com/in/aubrey-jones">
 <LinkedInIcon />
 LinkedIn
 </Link>
