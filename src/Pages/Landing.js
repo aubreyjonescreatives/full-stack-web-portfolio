@@ -67,7 +67,7 @@ const allcardStyles = {
 const cardStyles = {
 
 margin: '25px', 
-maxWidth: '350px'
+maxWidth: '400px'
 
 
 
@@ -197,12 +197,13 @@ return (
 
 <Box sx={allcardStyles}>
 
-<Link href="https://recipes-react-front-end-app.netlify.app/">
+<Link href="https://recipes-react-front-end-app.netlify.app/" target="_blank">
 <Card sx={cardStyles} className="cardStyles">
       <CardMedia
         component="img"
         alt="React Login"
         height="300"
+        width="100%"
         image={LoginExampleImg }
       />
       <CardContent>
@@ -217,7 +218,7 @@ return (
     </Card>
     </Link>
 
-    <Link href="https://facebook.aubreyjonescreatives.com/">
+    <Link href="https://facebook.aubreyjonescreatives.com/" target="_blank">
     <Card sx={cardStyles} className="cardStyles">
       <CardMedia
         component="img"
@@ -238,7 +239,7 @@ return (
     </Link>
 
 
-    <Link href="https://chaoticroyale.netlify.app/">
+    <Link href="https://chaoticroyale.netlify.app/" target="_blank">
     <Card sx={cardStyles} className="cardStyles">
       <CardMedia
         component="img"
@@ -258,7 +259,7 @@ return (
     </Card>
     </Link>
 
-    <Link href="https://github.com/aubreyjonescreatives/react-node-full-stack-app">
+    <Link href="https://github.com/aubreyjonescreatives/react-node-full-stack-app" target="_blank">
     <Card sx={cardStyles} className="cardStyles">
       <CardMedia
         component="img"
@@ -279,7 +280,7 @@ return (
     </Card>
     </Link>
 
-    <Link href="https://math-for-home.netlify.app/">
+    <Link href="https://math-for-home.netlify.app/" target="_blank">
     <Card sx={cardStyles} className="cardStyles">
       <CardMedia
         component="img"
@@ -316,12 +317,12 @@ return (
     web development. Feel free to follow my articles and contact me for any questions, suggestions, and/or requests for a blog article.  
 </Typography>
 
-<Link sx={articleLink} href="https://medium.com/@aubreyjonescreatives">
+<Link sx={articleLink} href="https://medium.com/@aubreyjonescreatives" target="_blank">
        UX/UI | Frontend Web Development Blog
        </Link>
 
 
-       <Link sx={articleLink} href="https://aubreyjonescreativesblog.netlify.app/">
+       <Link sx={articleLink} href="https://aubreyjonescreativesblog.netlify.app/" target="_blank">
       Frontend Web Development Blog
       </Link>
 
@@ -365,13 +366,13 @@ with my family. I am a pet lover and occasional pet sitter. I absolutely love ar
 
 
 <Box sx={connectLinksBox}>
-<Link sx={connectLink} href="https://github.com/aubreyjonescreatives">
+<Link sx={connectLink} href="https://github.com/aubreyjonescreatives" target="_blank">
 <GitHubIcon />
 Github
 </Link>
 
 
-<Link sx={connectLink} href="www.linkedin.com/in/aubrey-jones">
+<Link sx={connectLink} href="www.linkedin.com/in/aubrey-jones" target="_blank">
 <LinkedInIcon />
 LinkedIn
 </Link>
