@@ -197,6 +197,7 @@ return (
 
 <Box sx={allcardStyles}>
 
+<Link href="https://recipes-react-front-end-app.netlify.app/">
 <Card sx={cardStyles} className="cardStyles">
       <CardMedia
         component="img"
@@ -214,7 +215,9 @@ return (
       </CardContent>
    
     </Card>
+    </Link>
 
+    <Link href="https://facebook.aubreyjonescreatives.com/">
     <Card sx={cardStyles} className="cardStyles">
       <CardMedia
         component="img"
@@ -232,12 +235,14 @@ return (
       </CardContent>
      
     </Card>
+    </Link>
 
 
+    <Link href="https://chaoticroyale.netlify.app/">
     <Card sx={cardStyles} className="cardStyles">
       <CardMedia
         component="img"
-        alt="green iguana"
+        alt="Chaotic Royale"
         height="300"
         image={ChaoticRoyale}
       />
@@ -251,7 +256,9 @@ return (
       </CardContent>
      
     </Card>
+    </Link>
 
+    <Link href="https://github.com/aubreyjonescreatives/react-node-full-stack-app">
     <Card sx={cardStyles} className="cardStyles">
       <CardMedia
         component="img"
@@ -270,8 +277,9 @@ return (
       </CardContent>
      
     </Card>
+    </Link>
 
-
+    <Link href="https://math-for-home.netlify.app/">
     <Card sx={cardStyles} className="cardStyles">
       <CardMedia
         component="img"
@@ -287,9 +295,11 @@ return (
          I loved updating the Family Literacy's lessons, homework, and quizzes from Flash to HTML, CSS, and Javascript. It was a 
          pleasure to get to know my clients and identify what the project needed for a more current version of learning.  
         </Typography>
+        <Typography>This complete project is coming soon...</Typography>
       </CardContent>
      
     </Card>
+    </Link>
 
 
     </Box>
