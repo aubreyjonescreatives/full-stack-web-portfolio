@@ -16,6 +16,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ImageIcon from '@mui/icons-material/Image';
 import Modal from '@mui/material/Modal';
 import Resume from '../Images/aubreyjonesresume.jpg'; 
+import FLCINC from '../Images/flcinc.PNG'
 
 const headerStyles = {
 margin: '0px 100px 20px 50px', 
@@ -286,7 +287,7 @@ return (
         component="img"
         alt="Full Stack App Using Mongo"
         height="300"
-        image={Mongo}
+        image={FLCINC}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
