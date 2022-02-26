@@ -68,7 +68,8 @@ const allcardStyles = {
 const cardStyles = {
 
 margin: '25px', 
-maxWidth: '400px'
+maxWidth: '400px', 
+height: '475px'
 
 
 
@@ -297,7 +298,6 @@ return (
          I loved updating the Family Literacy's lessons, homework, and quizzes from Flash to HTML, CSS, and Javascript. It was a 
          pleasure to get to know my clients and identify what the project needed for a more current version of learning.  
         </Typography>
-        <Typography>This complete project is coming soon...</Typography>
       </CardContent>
      
     </Card>
