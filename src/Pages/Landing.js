@@ -69,10 +69,19 @@ const cardStyles = {
 
 margin: '25px', 
 maxWidth: '400px', 
-height: '475px'
+height: '475px', 
+textDecoration: 'none'
 
 
 
+}
+
+const cardLink = {
+textDecoration: 'none', 
+"&:hover": {
+  textDecoration: 'none',
+
+}
 }
 
 const articlesStyles = {
@@ -104,7 +113,8 @@ border: '1px solid #30638E',
     color: '#30638E',
     backgroundColor: 'white',
     border: '1px solid #30638E', 
-    cursor: 'pointer'
+    cursor: 'pointer', 
+    textDecoration: 'none'
    
   }
 
@@ -199,7 +209,7 @@ return (
 
 <Box sx={allcardStyles}>
 
-<Link href="https://recipes-react-front-end-app.netlify.app/" target="_blank">
+<Link sx={cardLink} href="https://recipes-react-front-end-app.netlify.app/" target="_blank">
 <Card sx={cardStyles} className="cardStyles">
       <CardMedia
         component="img"
@@ -220,7 +230,7 @@ return (
     </Card>
     </Link>
 
-    <Link href="https://facebook.aubreyjonescreatives.com/" target="_blank">
+    <Link sx={cardLink} href="https://facebook.aubreyjonescreatives.com/" target="_blank">
     <Card sx={cardStyles} className="cardStyles">
       <CardMedia
         component="img"
@@ -241,7 +251,7 @@ return (
     </Link>
 
 
-    <Link href="https://chaoticroyale.netlify.app/" target="_blank">
+    <Link sx={cardLink} href="https://chaoticroyale.netlify.app/" target="_blank">
     <Card sx={cardStyles} className="cardStyles">
       <CardMedia
         component="img"
@@ -261,7 +271,7 @@ return (
     </Card>
     </Link>
 
-    <Link href="https://github.com/aubreyjonescreatives/react-node-full-stack-app" target="_blank">
+    <Link sx={cardLink} href="https://github.com/aubreyjonescreatives/react-node-full-stack-app" target="_blank">
     <Card sx={cardStyles} className="cardStyles">
       <CardMedia
         component="img"
@@ -282,7 +292,7 @@ return (
     </Card>
     </Link>
 
-    <Link href="https://math-for-home.netlify.app/" target="_blank">
+    <Link sx={cardLink} href="https://math-for-home.netlify.app/" target="_blank">
     <Card sx={cardStyles} className="cardStyles">
       <CardMedia
         component="img"
