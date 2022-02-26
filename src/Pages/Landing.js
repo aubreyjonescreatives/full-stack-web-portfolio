@@ -232,7 +232,7 @@ return (
          WordPress Facebook Redesign
         </Typography>
         <Typography variant="body2" color="text.secondary">
-         What I wish the Facebook desktop version would look like. I used WordPress as a CMS and PHP. 
+         Facebook Redesign using WordPress as a CMS and PHP. 
         </Typography>
       </CardContent>
      
