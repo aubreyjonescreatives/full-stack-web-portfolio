@@ -209,9 +209,11 @@ return (
 
 <Box sx={allcardStyles}>
 
-<Link sx={cardLink} href="https://recipes-react-front-end-app.netlify.app/" target="_blank">
+
 <Card sx={cardStyles} className="cardStyles">
+<Link sx={cardLink} href="https://recipes-react-front-end-app.netlify.app/" target="_blank">
       <CardMedia
+
         component="img"
         alt="React Login"
         height="300"
@@ -226,12 +228,13 @@ return (
           A website built with React.js, MUI5, Netlify Serverless Functions, etc.
         </Typography>
       </CardContent>
-   
+      </Link>
     </Card>
-    </Link>
+   
 
-    <Link sx={cardLink} href="https://facebook.aubreyjonescreatives.com/" target="_blank">
+   
     <Card sx={cardStyles} className="cardStyles">
+    <Link sx={cardLink} href="https://facebook.aubreyjonescreatives.com/" target="_blank">
       <CardMedia
         component="img"
         alt="Facebook Redesign"
@@ -246,13 +249,14 @@ return (
          Facebook Redesign using WordPress as a CMS and PHP. 
         </Typography>
       </CardContent>
-     
+      </Link>
     </Card>
-    </Link>
+  
 
 
-    <Link sx={cardLink} href="https://chaoticroyale.netlify.app/" target="_blank">
+   
     <Card sx={cardStyles} className="cardStyles">
+    <Link sx={cardLink} href="https://chaoticroyale.netlify.app/" target="_blank">
       <CardMedia
         component="img"
         alt="Chaotic Royale"
@@ -267,12 +271,13 @@ return (
          I had the pleasure developing a classic gaming app in a team environment using React.js.  
         </Typography>
       </CardContent>
-     
+      </Link>
     </Card>
-    </Link>
+   
 
-    <Link sx={cardLink} href="https://github.com/aubreyjonescreatives/react-node-full-stack-app" target="_blank">
+    
     <Card sx={cardStyles} className="cardStyles">
+    <Link sx={cardLink} href="https://github.com/aubreyjonescreatives/react-node-full-stack-app" target="_blank">
       <CardMedia
         component="img"
         alt="Full Stack App Using Mongo"
@@ -288,12 +293,12 @@ return (
          whistles added to this app.  
         </Typography>
       </CardContent>
-     
+      </Link>
     </Card>
-    </Link>
+   
 
-    <Link sx={cardLink} href="https://math-for-home.netlify.app/" target="_blank">
     <Card sx={cardStyles} className="cardStyles">
+    <Link sx={cardLink} href="https://math-for-home.netlify.app/" target="_blank">
       <CardMedia
         component="img"
         alt="Full Stack App Using Mongo"
@@ -309,9 +314,9 @@ return (
          pleasure to get to know my clients and identify what the project needed for a more current version of learning.  
         </Typography>
       </CardContent>
-     
+      </Link>
     </Card>
-    </Link>
+    
 
 
     </Box>
