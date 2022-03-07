@@ -132,18 +132,26 @@ const aboutStyles = {
 
 
 const typeStyles2 = {
-    padding: '40px 50px 10px 50px', 
-    width: '50%', 
+    padding: '40px 200px 10px 200px', 
+   margin: '0 auto', 
+   textAlign: 'center',  
     color: '#30638E',
 }
 
+
+
+const testimonialStyles = {
+  paddingBottom: '50px', 
+  backgroundColor: '#eee', 
+ 
+}
 
 
 
 
 const connectStyles = {
     paddingBottom: '50px', 
-    backgroundColor: '#eee', 
+    backgroundColor: 'white', 
    
 
 
@@ -350,25 +358,43 @@ return (
 
 <Typography sx={headerStyles} id="about">ABOUT</Typography>
 
-
-<Typography sx={typeStyles2}>I was always a writer and discovered I liked to code back in 2015, thanks to a collegue. I took a couple of coding classes at Salt Lake Community College 
-back in 2016 as part of my Associate's Degree in General Education. I can tell you they were not easy but definitely worth it and interesting.
-I attended a DevMountain bootcamp at the end of 2016 for UX/UI, and fell in love with both disciplines. I transferred to Utah Valley University in 2017 as a designer but noticed I wanted 
-the full scope and coding skills. I switched to the web and app emphasis and have yet to regret it. Designing and coding websites is challenging and rewarding. I get to 
-constantly learn something knew and there is never a boring day when it includes frontend web development. Now, nearly 7 years later (since I began coding), I am a UVU undergrad graduate as of December 
-2021 in Web Design and Development with an emphasis in Web and App Development.    
-</Typography>
-
-<Typography sx={typeStyles2}>While I have completed my degree, I will always continue to learn and grow as a designer and developer. I get to mentor in all of this at Trilogy Education 
-Services currently, and assist others to gain a passion for the fields as well. My mentors and students push me to stay caught up with current practices with all of the design 
-and development tools. This may not always be an easy task but it is definitely worth it. And I will always continue to learn and grow.This may be why you see me pop into other fields 
-and disciplines as well, as UX/UI and full stack web development definitely help me become a better frontend web developer.  
-</Typography>
-
 <Typography sx={typeStyles2}>In my spare time, I love to travel, explore other cultures, spend time with my family, video game, and learn additional creative hobbies. I am currently in Salt Lake City, Utah 
 with my family. I am a pet lover and occasional pet sitter. I absolutely love art and will stop to smell the roses whenever possible.  
 </Typography>
 
+
+
+
+
+</Box>
+
+<Box sx={testimonialStyles}>
+
+
+<Typography sx={headerStyles} id="about">TESTIMONIALS</Typography>
+
+<Typography sx={typeStyles2}>"I highly recommend Aubrey without any reservation."
+
+-Deanna Weierholt, The Family Literacies Director  
+</Typography>
+
+<Typography sx={typeStyles2}>It's rare that you you come across a person like Aubrey. She always came to teach class prepared with a 
+positive attitude and a vast array of skills. I'm so happy that I was able to have Aubrey on our education team because I knew I could trust her to get the job done efficiently.   
+-Sarah Mendez, Frontend Developer
+
+</Typography>
+
+
+<Typography sx={typeStyles2}>
+"You are incredibly talented and very much a leader. Thank you for sharing your skills in our program." 
+-Corrine Padilla, Senior Student Sucess Manager
+
+</Typography>
+
+<Typography sx={typeStyles2}>
+"Aubrey, as always, was incredibly helpful and informative. She really took the time to listen to my needs and learning style, and it was greatly appreciated!!"
+-Shelley Knowles, Trilogy Student in Full Stack Flex Program
+</Typography>
 
 
 

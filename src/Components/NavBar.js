@@ -19,7 +19,7 @@ import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import ArticleIcon from '@mui/icons-material/Article';
 import InfoIcon from '@mui/icons-material/Info';
 import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
-
+import NotesIcon from '@mui/icons-material/Notes';
 
 const linkStyling = {
   fontSize: '20px', 
@@ -81,6 +81,13 @@ const drawerItemList = () => (
           <InfoIcon/>
         </ListItemIcon>
         <Link href="#about" sx={linkStyling}>ABOUT</Link>
+      </ListItem>
+
+      <ListItem button>
+        <ListItemIcon sx={{color: "white"}}>
+          <NotesIcon/>
+        </ListItemIcon>
+        <Link href="#testimonials" sx={linkStyling}>TESTIMONIALS</Link>
       </ListItem>
 
       <ListItem button>
