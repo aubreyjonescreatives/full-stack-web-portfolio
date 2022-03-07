@@ -136,6 +136,16 @@ const typeStyles2 = {
    margin: '0 auto', 
    textAlign: 'center',  
     color: '#30638E',
+    
+}
+
+
+const typeStyles3 = {
+  padding: '40px 200px 10px 200px', 
+ margin: '0 auto', 
+ textAlign: 'center',  
+  color: '#30638E',
+  fontSize: '20px'
 }
 
 
@@ -373,25 +383,25 @@ with my family. I am a pet lover and occasional pet sitter. I absolutely love ar
 
 <Typography sx={headerStyles} id="about">TESTIMONIALS</Typography>
 
-<Typography sx={typeStyles2}>"I highly recommend Aubrey without any reservation."
+<Typography sx={typeStyles3}>"I highly recommend Aubrey without any reservation."
 
 -Deanna Weierholt, The Family Literacies Director  
 </Typography>
 
-<Typography sx={typeStyles2}>It's rare that you you come across a person like Aubrey. She always came to teach class prepared with a 
+<Typography sx={typeStyles3}>It's rare that you you come across a person like Aubrey. She always came to teach class prepared with a 
 positive attitude and a vast array of skills. I'm so happy that I was able to have Aubrey on our education team because I knew I could trust her to get the job done efficiently.   
 -Sarah Mendez, Frontend Developer
 
 </Typography>
 
 
-<Typography sx={typeStyles2}>
+<Typography sx={typeStyles3}>
 "You are incredibly talented and very much a leader. Thank you for sharing your skills in our program." 
 -Corrine Padilla, Senior Student Sucess Manager
 
 </Typography>
 
-<Typography sx={typeStyles2}>
+<Typography sx={typeStyles3}>
 "Aubrey, as always, was incredibly helpful and informative. She really took the time to listen to my needs and learning style, and it was greatly appreciated!!"
 -Shelley Knowles, Trilogy Student in Full Stack Flex Program
 </Typography>
