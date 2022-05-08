@@ -401,11 +401,6 @@ positive attitude and a vast array of skills. I'm so happy that I was able to ha
 
 </Typography>
 
-<Typography sx={typeStyles3}>
-"Aubrey, as always, was incredibly helpful and informative. She really took the time to listen to my needs and learning style, and it was greatly appreciated!!"
--Shelley Knowles, Trilogy Student in Full Stack Flex Program
-</Typography>
-
 
 
 
