@@ -15,7 +15,7 @@ import Link from '@mui/material/Link';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ImageIcon from '@mui/icons-material/Image';
 import Modal from '@mui/material/Modal';
-import Resume from '../Images/aubreyjonesresume.jpg'; 
+import Resume from '../Images/aubreyjonesresume.pdf'; 
 import FLCINC from '../Images/flcinc.PNG'
 
 const headerStyles = {
