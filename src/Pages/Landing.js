@@ -16,7 +16,8 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ImageIcon from '@mui/icons-material/Image';
 import Modal from '@mui/material/Modal';
 import Resume from '../Images/aubreyjonesresume.pdf'; 
-import FLCINC from '../Images/flcinc.PNG'
+import FLCINC from '../Images/flcinc.PNG'; 
+import Weather from '../Images/weather.png'; 
 
 const headerStyles = {
 margin: '0px 100px 20px 50px', 
@@ -330,6 +331,25 @@ return (
         <Typography variant="body2" color="text.secondary">
          I loved updating the Family Literacy's lessons, homework, and quizzes from Flash to HTML, CSS, and Javascript. It was a 
          pleasure to get to know my clients and identify what the project needed for a more current version of learning.  
+        </Typography>
+      </CardContent>
+      </Link>
+    </Card>
+
+    <Card sx={cardStyles} className="cardStyles">
+    <Link sx={cardLink} href="https://classy-weather-react-app.netlify.app/" target="_blank">
+      <CardMedia
+        component="img"
+        alt="Full Stack App Using Mongo"
+        height="300"
+        image={Weather}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        React Weather App 
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Check out current weather conditions with this weather app.  
         </Typography>
       </CardContent>
       </Link>
