@@ -2,7 +2,6 @@ import React, { Suspense } from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {PortfolioContextProvider} from './contexts/PortfolioContext';
 import {Box, LinearProgress} from '@mui/material'; 
-import NetlifyIdentityContext from 'react-netlify-identity-gotrue';
 import NavBar from './Components/NavBar';
 import LandingPage from './Pages/Landing';  
 //import Footer from './Components/Footer/Footer'; 
@@ -20,7 +19,7 @@ const App = () => {
   return (
    <>
    <Router>
-     <NetlifyIdentityContext url='https://aubrey-jones-web-development-portfolio.netlify.app'>
+    
     <PortfolioContextProvider>
      <NavBar />
   <Suspense fallback={<Box sx={style}>
@@ -31,7 +30,7 @@ const App = () => {
   </Switch>
   </Suspense>
    </PortfolioContextProvider>
-   </NetlifyIdentityContext>
+  
    </Router>
    </>
   );
