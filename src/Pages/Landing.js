@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import LoginExampleImg from '../Images/loginwebsite.PNG'; 
-import FacebookRedesign from '../Images/facebookredesign.PNG'; 
+import HelloMoments from '../Images/hellomoments.png'; 
 import GitHubIcon from '@mui/icons-material/GitHub';
 import ChaoticRoyale from '../Images/chaoticroyale.PNG'; 
 import Mongo from '../Images/mongo.PNG'; 
@@ -253,19 +253,20 @@ return (
 
    
     <Card sx={cardStyles} className="cardStyles">
-    <Link sx={cardLink} href="https://facebook.aubreyjonescreatives.com/" target="_blank">
+    <Link sx={cardLink} href="https://hellomoments.herokuapp.com/login" target="_blank">
       <CardMedia
         component="img"
-        alt="Facebook Redesign"
+        alt="Hello Moments"
         height="300"
-        image={FacebookRedesign}
+        width="100%"
+        image={HelloMoments}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-         WordPress Facebook Redesign
+        A Social Media App
         </Typography>
         <Typography variant="body2" color="text.secondary">
-         Facebook Redesign using WordPress as a CMS and PHP. 
+         MongoDB, Express, React, and Node (MERN Full-Stack) Web App 
         </Typography>
       </CardContent>
       </Link>
