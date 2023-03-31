@@ -19,8 +19,7 @@ const App = () => {
   return (
    <>
    <Router>
-    
-    <PortfolioContextProvider>
+   
      <NavBar />
   <Suspense fallback={<Box sx={style}>
   <LinearProgress />
@@ -29,8 +28,6 @@ const App = () => {
   <Route path="/" exact component={LandingPage} />
   </Switch>
   </Suspense>
-   </PortfolioContextProvider>
-  
    </Router>
    </>
   );
