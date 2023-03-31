@@ -363,14 +363,8 @@ return (
 
 <Box sx={articlesStyles}>
 
-<Typography sx={headerStylesB} id="articles">ARTICLES</Typography>
+<Typography sx={headerStylesB} id="articles">Coding Blogs</Typography>
 
-
-
-<Typography sx={typeStyles}>I have two blogs. One is on Medium for UX/UI design and frontend web development. Another is primarily just for the coding aspects of frontend web development. 
-    I love to learn and talk about code. They're one of the many things I have enjoyed as I mentor adult students learning UX/UI design, frontend web development, and fullstack 
-    web development. Feel free to follow my articles and contact me for any questions, suggestions, and/or requests for a blog article.  
-</Typography>
 
 <Link sx={articleLink} href="https://medium.com/@aubreyjonescreatives" target="_blank">
        UX/UI | Frontend Web Development Blog
