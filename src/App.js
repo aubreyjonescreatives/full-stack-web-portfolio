@@ -1,6 +1,5 @@
 import React, { Suspense } from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import {PortfolioContextProvider} from './contexts/PortfolioContext';
 import {Box, LinearProgress} from '@mui/material'; 
 import NavBar from './Components/NavBar';
 import LandingPage from './Pages/Landing';  
