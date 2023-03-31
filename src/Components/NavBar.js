@@ -73,7 +73,7 @@ const drawerItemList = () => (
         <ListItemIcon sx={{color: "white"}}>
           <ArticleIcon/>
         </ListItemIcon>
-        <Link href="#articles" sx={linkStyling}>ARTICLES</Link>
+        <Link href="#articles" sx={linkStyling}>BLOGS</Link>
       </ListItem>
 
       <ListItem button>
