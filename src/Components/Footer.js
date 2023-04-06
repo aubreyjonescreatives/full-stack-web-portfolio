@@ -14,7 +14,7 @@ import Resume from '../Images/aubreyjonesuxuidesignanddevelopmentresume.pdf';
 
 const connectStyles = {
     paddingBottom: '50px', 
-    backgroundColor: '#eee', 
+    backgroundColor: '#fff', 
     fontSize: '32px', 
     fontFamily: 'Lato', 
     fontWeight: '400', 
