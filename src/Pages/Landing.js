@@ -15,7 +15,7 @@ import Link from '@mui/material/Link';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ImageIcon from '@mui/icons-material/Image';
 import Modal from '@mui/material/Modal';
-import Resume from '../Images/aubreyjonesresume.pdf'; 
+import Resume from '../Images/aubreyjonesuxuidesigndevelopmentresume.pdf'; 
 import FLCINC from '../Images/flcinc.PNG'; 
 import Weather from '../Images/weather.png'; 
 
