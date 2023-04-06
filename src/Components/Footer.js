@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ImageIcon from '@mui/icons-material/Image';
-import Resume from '../Images/resume/aubreyjonesuxuidesigndevelopmentresume.pdf'; 
+import Resume from '../Images/resume/aubreyjonesuxuidesignanddevelopmentresume.pdf'; 
 
 
 
