@@ -12,10 +12,6 @@ import ChaoticRoyale from '../Images/chaoticroyale.PNG';
 import Mongo from '../Images/mongo.PNG'; 
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import ImageIcon from '@mui/icons-material/Image';
-import Modal from '@mui/material/Modal';
-import Resume from '../Images/aubreyjonesuxuidesigndevelopmentresume.pdf'; 
 import FLCINC from '../Images/flcinc.PNG'; 
 import Weather from '../Images/weather.png'; 
 
@@ -92,11 +88,11 @@ const articlesStyles = {
 }
 
 
-const typeStyles = {
-    padding: '50px', 
-    width: '90%', 
-    color: '#30638E'
-}
+// const typeStyles = {
+//     padding: '50px', 
+//     width: '90%', 
+//     color: '#30638E'
+// }
 
 const articleLink = {
 display: 'flex', 
@@ -160,65 +156,11 @@ const testimonialStyles = {
 
 
 
-const connectStyles = {
-    paddingBottom: '50px', 
-    backgroundColor: 'white', 
-   
 
 
-
-}
-
-const connectLinksBox ={
-    display: 'flex',
-    flexWrap: 'wrap', 
-    justifyContent: 'center'
-
-}
-
-
-const connectLink = {
-    textAlign: 'center', 
-    backgroundColor: '#30638E', 
-    margin: '5px', 
-    padding: '10px', 
-    textDecoration: 'none', 
-    color: 'white', 
-    fontSize: '26px', 
-    border: '1px solid #30638E',
-    "&:hover": {
-        color: '#30638E',
-        backgroundColor: 'white',
-        border: '1px solid #30638E', 
-        cursor: 'pointer'
-       
-      }
-    
-    }
-
-
-
-
-
-    const resumemodalStyle = {
-        position: 'absolute',
-        top: '70%',
-        left: '50%',
-        transform: 'translate(-50%, -50%)',
-        bgcolor: 'background.paper',
-        border: '2px solid #000',
-        boxShadow: 24,
-        overflow:'scroll', 
-        zIndex: '10'
-      };
 
 
 const Landing = () => {
-    const [open, setOpen] = React.useState(false);
-    const handleOpen = () => setOpen(true);
-    const handleClose = () => setOpen(false);
-  
-
 
 
 return (
@@ -420,59 +362,6 @@ positive attitude and a vast array of skills. I'm so happy that I was able to ha
 
 
 </Box>
-
-<Box sx={connectStyles}>
-
-<Typography sx={headerStylesB} id="connect">CONNECT</Typography>
-
-
-
-<Box sx={connectLinksBox}>
-<Link sx={connectLink} href="https://github.com/aubreyjonescreatives" target="_blank">
-<GitHubIcon />
-Github
-</Link>
-
-
-<Link sx={connectLink} href="https://www.linkedin.com/in/aubrey-jones" target="_blank">
-<LinkedInIcon />
-LinkedIn
-</Link>
-
-<Link sx={connectLink} onClick={handleOpen}>
-<ImageIcon />Resume
-
-</Link>
-
-
-</Box>
-
-</Box>
-
-<div>
-
-<Modal
-        open={open}
-        onClose={handleClose}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-      >
-        <Box sx={resumemodalStyle}>
-        <Card>
-      <CardMedia
-        component="img"
-        alt="Resume"
-       // height="850"
-        image={Resume}
-      />
-    </Card>
-        </Box>
-      </Modal>
-
-
-
-</div>
-
 
 
 </>

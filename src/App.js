@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {Box, LinearProgress} from '@mui/material'; 
 import NavBar from './Components/NavBar';
 import LandingPage from './Pages/Landing';  
-//import Footer from './Components/Footer/Footer'; 
+import Footer from './Components/Footer'; 
 import './App.css';
-//const LatestMeals = React.lazy(() => import('./Components/LatestMeals/LatestMeals'));
-//const MealDetails = React.lazy(() => import('./Components/MealDetails/MealDetails'));
+
+
 
 
 const style = {
@@ -27,6 +27,7 @@ const App = () => {
   <Route path="/" exact component={LandingPage} />
   </Switch>
   </Suspense>
+  <Footer />
    </Router>
    </>
   );
